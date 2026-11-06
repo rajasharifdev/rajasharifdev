@@ -22,15 +22,15 @@ export const site = {
 export const person = {
   name: 'Raja Umer Sharif',
   monogram: 'RS', // drawn in particles in the contact section
-  email: 'rajaumer.job@gmail.com',
+  email: 'rajasharif.dev@gmail.com',
   phone: '', // e.g. '+1 (555) 123-4567' — hidden when empty
   location: '', // e.g. 'Dallas, TX · Open to remote' — hidden when empty
-  education: 'Bachelor of Arts',
-  careerStart: '2015-04', // used to compute "years of experience"
+  education: 'Bachelor of Science',
+  careerStart: '2017-04', // used to compute "years of experience"
   resumeUrl: '', // e.g. '/Raja-Umer-Sharif-Resume.pdf' (put the file in /public)
   socials: [
-    { label: 'GitHub', url: '' },
-    { label: 'LinkedIn', url: '' },
+    { label: 'GitHub', url: 'https://github.com/rajasharifdev' },
+    { label: 'LinkedIn', url: 'https://www.linkedin.com/in/raja-umer-466991375' },
   ],
 };
 
@@ -44,7 +44,7 @@ export const experience = [
     id: 'glenoaks',
     company: 'Glen Oaks Hospital',
     location: 'Greenville, TX',
-    start: '2020-07',
+    start: '2022-07',
     end: null, // null = present
     level: 'senior',
     domain: 'Healthcare',
@@ -60,8 +60,8 @@ export const experience = [
     id: 'equifax',
     company: 'Equifax',
     location: 'Alpharetta, GA',
-    start: '2019-02',
-    end: '2020-06',
+    start: '2021-02',
+    end: '2022-06',
     level: 'senior',
     domain: 'Fintech',
     highlights: [
@@ -75,8 +75,8 @@ export const experience = [
     id: 'ditech',
     company: 'Ditech Holding Corporation',
     location: 'Tampa, FL',
-    start: '2017-09',
-    end: '2019-01',
+    start: '2019-09',
+    end: '2021-01',
     level: 'mid',
     domain: 'Fintech',
     highlights: [
@@ -90,8 +90,8 @@ export const experience = [
     id: 'christus',
     company: 'Christus Health',
     location: 'Cincinnati, OH',
-    start: '2015-04',
-    end: '2017-08',
+    start: '2017-04',
+    end: '2019-08',
     level: 'junior',
     domain: 'Healthcare',
     highlights: [
